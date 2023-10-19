@@ -52,6 +52,13 @@
     $carro5->fabricante = "Tesla";
     $carro5->status = "Disponível";
 
+    $carro6 = new Carro();
+    $carro6->ano = "2022";
+    $carro6->modelo = "Audi A4";
+    $carro6->cor = "Cinza";
+    $carro6->fabricante = "Audi";
+    $carro6->status = "Disponível";
+
     // Imprimindo na tela do usuário os valores dos objetos de carro
     echo "<p>Carro " . $carro0->status . ":</p>";
 
@@ -92,4 +99,10 @@
           Modelo: " . $carro5->modelo . "<br>
           de Cor: " . $carro5->cor . "<br>
           Ano: " . $carro5->ano . "</p><hr>";
+
+    echo "<p>Carro " . $carro6->status . ":</p>";
+    echo "<p>Fabricante do carro: " . $carro6->fabricante . "<br>
+          Modelo: " . $carro6->modelo . "<br>
+          de Cor: " . $carro6->cor . "<br>
+          Ano: " . $carro6->ano . "</p><hr>";
 ?>
