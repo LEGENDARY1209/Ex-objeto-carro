@@ -53,7 +53,6 @@
     $carro5->fabricante = "Tesla";
     $carro5->status = "Disponível";
 
-    $carro6 = new Carro();
     $carro6->ano = "2022";
     $carro6->modelo = "Audi A4";
     $carro6->cor = "Cinza";
