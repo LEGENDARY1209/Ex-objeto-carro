@@ -22,7 +22,7 @@
     $carro1->fabricante = "Ford";
     $carro1->status = "Indisponível";
 
-    // Instanciando mais quatro objetos de carro
+    // Instanciando mais cinco objetos de carro
     $carro2 = new Carro();
     $carro3 = new Carro();
     $carro4 = new Carro();
