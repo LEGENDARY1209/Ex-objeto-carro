@@ -27,6 +27,7 @@
     $carro3 = new Carro();
     $carro4 = new Carro();
     $carro5 = new Carro();
+    $carro6 = new Carro();
 
     $carro2->ano = "2020";
     $carro2->modelo = "Golf GTI";
